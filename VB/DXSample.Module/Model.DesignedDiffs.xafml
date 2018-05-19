@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application Title="DXSample" Logo="ExpressAppLogo">
+	<Views>
+		<ListView ID="Contact_ListView">
+			<Columns>
+				<ColumnInfo PropertyName="Birthday" Index="3" Width="100" />
+				<ColumnInfo PropertyName="FullName" Width="200" />
+				<ColumnInfo PropertyName="Email" Index="2" Width="100" />
+				<ColumnInfo PropertyName="Photo" Index=" 4" Width="50" ImageEditorMode="DropDownPictureEdit" />
+				<ColumnInfo PropertyName="Address1" Index="1" Width="150" />
+			</Columns>
+		</ListView>
+		<DetailView ID="Contact_DetailView">
+			<Layout Width="596" Height="793">
+				<LayoutGroup ID="Main" CaptionLocation="Default" RelativeSize="98">
+					<LayoutGroup ID="SimpleEditors" CaptionLocation="Default" RelativeSize="30">
+						<LayoutGroup ID="Person" CaptionLocation="Default" RelativeSize="52">
+							<LayoutGroup ID="Person_col1" CaptionLocation="Default" RelativeSize="49">
+								<LayoutItem ID="MiddleName" RelativeSize="33" SizeConstraintsType="Default" />
+								<LayoutItem ID="LastName" RelativeSize="33" SizeConstraintsType="Default" />
+								<LayoutItem ID="FirstName" RelativeSize="33" SizeConstraintsType="Default" />
+							</LayoutGroup>
+							<LayoutGroup ID="Person_col2" CaptionLocation="Default" RelativeSize="49">
+								<LayoutItem ID="Email" RelativeSize="33" SizeConstraintsType="Default" />
+								<LayoutItem ID="FullName" RelativeSize="33" SizeConstraintsType="Default" />
+								<LayoutItem ID="Birthday" RelativeSize="33" SizeConstraintsType="Default" />
+							</LayoutGroup>
+						</LayoutGroup>
+						<LayoutGroup ID="Party" CaptionLocation="Default" RelativeSize="42">
+							<LayoutItem ID="Address2" Index="3" RelativeSize="24" SizeConstraintsType="Default" />
+							<LayoutItem ID="DisplayName" Index="0" RelativeSize="24" SizeConstraintsType="Default" />
+							<LayoutItem ID="Photo" Index="1" RelativeSize="24" SizeConstraintsType="Default" />
+							<LayoutItem ID="Address1" Index="2" RelativeSize="24" SizeConstraintsType="Default" />
+						</LayoutGroup>
+					</LayoutGroup>
+					<LayoutGroup ID="PhoneNumbers_Group" Direction="Vertical" CaptionLocation="Default" RelativeSize="69">
+						<LayoutItem ID="PhoneNumbers" RelativeSize="92" SizeConstraintsType="Custom" />
+					</LayoutGroup>
+				</LayoutGroup>
+			</Layout>
+		</DetailView>
+	</Views>
+	<SchemaModules IsNewNode="True">
+		<SchemaModule Name="SystemModule" Version="8.2.6.4846" IsNewNode="True" />
+		<SchemaModule Name="DevExpress.ExpressApp.SystemModule.HideActionsViewController" Version="8.2.6.4846" IsNewNode="True" />
+		<SchemaModule Name="DevExpress.ExpressApp.SystemModule.ShowNavigationItemController" Version="8.2.6.4846" IsNewNode="True" />
+	</SchemaModules>
+</Application>
