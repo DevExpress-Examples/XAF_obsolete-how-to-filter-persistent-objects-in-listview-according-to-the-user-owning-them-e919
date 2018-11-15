@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Contact.cs](./CS/DXSample.Module/Contact.cs) (VB: [Contact.vb](./VB/DXSample.Module/Contact.vb))
+* **[FilterByUserController.cs](./CS/DXSample.Module/FilterByUserController.cs) (VB: [FilterByUserController.vb](./VB/DXSample.Module/FilterByUserController.vb))**
+* [IOwnedObject.cs](./CS/DXSample.Module/IOwnedObject.cs) (VB: [IOwnedObject.vb](./VB/DXSample.Module/IOwnedObject.vb))
+* [Updater.cs](./CS/DXSample.Module/Updater.cs) (VB: [Updater.vb](./VB/DXSample.Module/Updater.vb))
+<!-- default file list end -->
 # OBSOLETE - How to filter persistent objects in ListView, according to the user owning them (Simple Security)
 
 
